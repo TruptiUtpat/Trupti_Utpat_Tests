@@ -1,32 +1,43 @@
 # AYANWORKS – Sovio QA Automation Assignment
 
-This repository contains the manual and automation test execution for the AYANWORKS QA Intern assignment on Sovio dev environment.
+This repository contains the manual and automation test execution for the **AYANWORKS QA Intern assignment** on **Sovio Dev environment**.
 
 **Application URL:**  
 - https://dev.sovio.id/
 
 ---
 
-## ✅ Scope Covered (as per assignment)
+## ✅ Submission Deliverables
 
-1) **# Manual Test Cases Link : **
-   
-- Google sheet : https://docs.google.com/spreadsheets/d/1Aolz7OUccasM0G9M-PdLz5q9RSZgYFKDyLhMlEEhU2g/edit?usp=sharing
+### ✅ **1) Manual Test Cases**
+**Manual Test Cases Sheet Link:**  
+- https://docs.google.com/spreadsheets/d/1Aolz7OUccasM0G9M-PdLz5q9RSZgYFKDyLhMlEEhU2g/edit?usp=sharing
 
-- User Registration
-- Sign In
-- Passkey Registration
-- Sign-in using Passkey
-- UI/UX checks
-- Input validations
-- Negative scenarios & edge cases
+Covered modules:
+- User Registration  
+- Sign In  
+- Passkey Registration  
+- Sign-in using Passkey  
+- UI/UX checks  
+- Input validations  
+- Negative scenarios & edge cases  
 
-2) ### Automation Testing (Selenium + Java)
+---
+
+### ✅ **2) Automation Test Scripts**
+Automation framework implemented using **Selenium WebDriver + Java + TestNG + Maven (POM framework)**.
+
 Automated flows:
 - Registration (valid & invalid inputs)
 - Sign in using password (valid & invalid scenarios)
 - Passkey registration flow trigger
 - Sign-in using passkey flow trigger
+
+---
+
+### ✅ **3) Bug Report**
+**Bug Report Sheet Link:**  
+- https://docs.google.com/spreadsheets/d/1lmb6nzkfnQu5LwzxjuiPmn9LQ70wvr74PtKfX6X4K3Q/edit?usp=sharing
 
 ---
 
@@ -61,26 +72,27 @@ src/test/java/com/testing/
   utils/
     WaitUtils.java
 
+
 ✅ Pre-requisites
 
 Java installed (Java 17 recommended)
 Maven installed and configured in system PATH
 Google Chrome browser installed
 
-To verify:
+To verify : 
 
 java -version
 mvn -version
 
 ▶️ How to Run Tests
 1) Run all tests
-mvn clean test
+- mvn clean test
 
 2) Run individual test class
-mvn -Dtest=RegistrationTests test
-mvn -Dtest=LoginTests test
-mvn -Dtest=PasskeyTests test
-mvn -Dtest=PasskeyLoginTests test
+- mvn -Dtest=RegistrationTests test
+- mvn -Dtest=LoginTests test
+- mvn -Dtest=PasskeyTests test
+- mvn -Dtest=PasskeyLoginTests test
 
 🔐 Note on Passkey (WebAuthn) Automation
 
@@ -99,12 +111,9 @@ No blocker errors
 
 This approach follows standard QA automation best practices for WebAuthn/passkey flows.
 
-3) **🐞 Bug Reporting**
-Link to sheet : https://docs.google.com/spreadsheets/d/1lmb6nzkfnQu5LwzxjuiPmn9LQ70wvr74PtKfX6X4K3Q/edit?usp=sharing
 
 
 👤 Author
+
 Trupti Utpat
 QA Intern Applicant – AYANWORKS Assignment
-
-
